@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<resources>
+    <string-array name="conversion_types">
+        <item>mile</item>
+        <item>meter</item>
+        <item>inch</item>
+        <item>feet</item>
+        <item>centimeter</item>
+        <item>kilometer</item>
+        <item>yard</item>
+        <item>micrometer</item>
+        <item>nanometer</item>
+        <item>nautical mile</item>
+        <item>millimeter</item>
+    </string-array>
+</resources>

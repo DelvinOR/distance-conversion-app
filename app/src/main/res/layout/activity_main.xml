@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conversion_TextView"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/amount_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/default_edit_text_view"/>
+
+    <Spinner
+        android:id="@+id/unit_type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amount_text_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/unit_type_spinner"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FFC822"
+        android:columnCount="1"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:rowCount="11">
+
+        <!-- These are the textview for all of my units of measurements that I used-->
+        <TextView
+            android:id="@+id/mile_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="left|top"
+            android:text="@string/default_mile_value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/meter_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="left|top"
+            android:text="@string/default_meter_value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/cm_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="left|top"
+            android:text="@string/default_cm_value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/feet_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="left|top"
+            android:text="@string/default_feet_value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/km_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="left|top"
+            android:text="@string/default_km_value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/inch_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="left|top"
+            android:text="@string/default_inch_value"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/yard_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="left|top"
+            android:text="@string/default_yard_value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/micrometer_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="left|top"
+            android:text="@string/default_micrometer_value"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nm_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="left|top"
+            android:text="@string/default_nm_value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nauticalmile_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="left|top"
+            android:text="@string/default_nautical_mile"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/mm_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="left|top"
+            android:text="@string/default_mm_value"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black" />
+
+
+    </GridLayout>
+
+</RelativeLayout>

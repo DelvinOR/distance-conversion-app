@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DistanceConversion</string>
+    <string name="conversion_TextView">Convert from </string>
+    <string name="default_edit_text_view">1.0</string>
+    <string name="default_mile_value">1.0 mile</string>
+    <string name="default_meter_value">1609.34 meter</string>
+    <string name="default_cm_value">160934 cm</string>
+    <string name="default_feet_value">5280 feet</string>
+    <string name="default_km_value">1.690934 km</string>
+    <string name="default_inch_value">63360 inch</string>
+    <string name="default_yard_value">1760 yard</string>
+    <string name="default_micrometer_value">1609340000 micrometer</string>
+    <string name="default_nm_value">1609340000000 nm</string>
+    <string name="default_nautical_mile">0.8690 nautical mile</string>
+    <string name="default_mm_value">1609340 mm</string>
+    <string name="default_furlong_value">7.9999 furlong</string>
+</resources>
