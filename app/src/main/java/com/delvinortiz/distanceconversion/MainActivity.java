@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This is the method for updating the text fields for the given units that you converted to.
-     * What derek did was that he created a mile Quantity object and in that converted from mile to the unitConvertingTo
+     * A mile Quantity object and in that converted from mile to the unitConvertingTo
      * @param doubleToConvert
      * @param unitConvertingTo
      * @param unitTextView
