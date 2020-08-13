@@ -228,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
 
         //String newUnitValueAndQuantityText = currentQuantitySelected.to(preferredUnit).toString();
 
-        //derek uses the bottom string instead of mine but we can check to see if both work correctly
+        //The bottom string is used instead of the one above but we can check to see if both work correctly
         String newUnitValueAndQuantityText = currentQuantitySelected.to(Quantity.Unit.mile).to(preferredUnit).toString();
         currentTextView.setText(newUnitValueAndQuantityText);
     }
